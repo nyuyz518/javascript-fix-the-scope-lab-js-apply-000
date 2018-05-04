@@ -29,10 +29,12 @@ add2(3);
 funkyFunction();	
 var theFunk = funkyFunction()();*/
 
+var theFunk = funkyFunction();
 function funkyFunction(){
   return function(){
     return "FUNKY!";
   }
 }
-var theFunk = funkyFunction();
+funkyFunction();
+
 
