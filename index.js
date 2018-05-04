@@ -21,20 +21,14 @@ add2(3);
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line
 
-/*var funkyFunction = function(){
+var funkyFunction = function(){
    return function(){	   
      return "FUNKY!";	     
 }
 }
 funkyFunction();	
-var theFunk = funkyFunction()();*/
+var theFunk = funkyFunction()();
 
-var theFunk = funkyFunction();
-function funkyFunction(){
-  return function(){
-    return "FUNKY!";
-  }
-}
-funkyFunction();
+
 
 
